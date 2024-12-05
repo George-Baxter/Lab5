@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center; /* Align content to the left */
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    position: relative; /* Ensure the header is positioned correctly */
+}
+
+.header img {
+    width: 50px; 
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 25px; 
+    height: 50px;
+}
+
+.masthead {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.masthead img {
+    width: 100%;
+    height: auto;
+}
+
+.masthead h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3em;
+    margin: 0;
+    color: white; 
+}
+
+.content {
+    padding: 2em;
+    background-color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
